@@ -452,8 +452,6 @@ h2{
     border: none;
     border-collapse: collapse;
     width: 100%;
-    max-width: 100%;
-    white-space: nowrap;
     background-color:rgba( 0, 0, 0, 0.0 );
     border-right: 2px solid #f8f8f8;
     border-left: 2px solid #f8f8f8;
@@ -469,7 +467,7 @@ h2{
 }
 
 .fl-table td {
-    border-right: 25px solid #f8f8f8;
+    border-right: 2px solid #f8f8f8;
     border-bottom: 2px solid #f8f8f8;
     border-left: 2px solid #f8f8f8;
     border-top: 2px solid #f8f8f8;
@@ -487,6 +485,7 @@ h2{
 @media (max-width: 1050px) {
     .table-wrapper{
       padding-bottom: 10%;
+      padding-left: 50%;
     }
     .fl-table thead, .fl-table tbody, .fl-table thead th {
         display: block;
