@@ -236,7 +236,7 @@
     transform: scale(1.3);
   }
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 1024px) {
     #center {
         width: 80%;
     }
@@ -283,52 +283,6 @@
     }
 }
 
-    @media screen and (max-width: 850px) and (min-width: 700px) {
-      #center {
-        width: 80%;
-    }
-    .button-forward{
-      background-size: 90% 75%;
-      width: 10%;
-      margin-top: 10%;
-      bottom: 150px;
-    }
-    .button-back{
-      background-size: 90% 75%;
-      width: 10%;
-    }
-    .test h1 {
-        font-size: 1.7em;
-        margin-top: 30%;
-        -webkit-animation: mine3Mobile 3s;
-        animation: mine3Mobile 3s;
-    }
-    #h1-2 {
-      font-size: 2em;
-      -webkit-animation: none;
-      animation: none;
-    }
-    .test h2{
-      font-size: 1em;
-      margin-top: 25%;
-      -webkit-animation: mine3Mobile 3s;
-      animation: mine3Mobile 3s;
-    }
-
-    svg{
-      width: 30px;
-      height: 30px;
-    }
-
-    #image-icon{
-      width: 40px;
-      height: 40px;
-    }
-
-    #social{
-      margin-top: 20%;
-    }
-  }
 
   .lines {
     position: absolute;
