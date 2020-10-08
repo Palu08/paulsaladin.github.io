@@ -234,7 +234,7 @@
     transform: scale(1.3);
   }
 
-  @media handheld {
+  @media (max-width:1300px)  {
     .button-forward{
       background-size: 90% 75%;
       width: 10%;
@@ -246,18 +246,15 @@
       width: 10%;
     }
     .test h1 {
-        font-size: 1.7em;
-        margin-top: 10%;
-        -webkit-animation: mine3Mobile 3s;
-        animation: mine3Mobile 3s;
+        margin-top: 20%;
+        -webkit-animation: mine2Mobile 3s;
+        animation: mine2Mobile 3s;
     }
     #h1-2 {
-      font-size: 2em;
       -webkit-animation: none;
       animation: none;
     }
     .test h2{
-      font-size: 1em;
       margin-top: 25%;
       -webkit-animation: mine3Mobile 3s;
       animation: mine3Mobile 3s;
@@ -481,7 +478,7 @@ h2{
 
 /* Responsive */
 
-@media (max-width: 1300px) {
+/*@media (max-width: 1300px) {
     .table-wrapper{
       padding-bottom: 10%;
     }
@@ -533,6 +530,6 @@ h2{
         display: block;
         text-align: center;
     }
-}
+}*/
   
   
