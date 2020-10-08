@@ -247,6 +247,7 @@
     }
     .test h1 {
         margin-top: 20%;
+        color: #167F92;
         -webkit-animation: mine2Mobile 3s;
         animation: mine2Mobile 3s;
     }
