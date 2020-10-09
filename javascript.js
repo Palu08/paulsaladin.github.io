@@ -27,9 +27,11 @@ $(document).ready(function() {
         if($(this).attr("href")=="#test2"){
             console.log($target.offset());
             $('#center').animate({scrollTop:$target.offset().top}, 900, 'swing');
+            page=2;
         }
         else if ($(this).attr("href")=="#test"){
             $('#center').animate({scrollTop:$target.offset().top}, 2000, 'swing');
+            page=1;
         }
     });
 });
