@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box !important;
   }
 
 @font-face {
@@ -235,7 +234,7 @@
     transform: scale(1.3);
   }
 
-  @media screen and (max-width: 1050px) {
+  @media (max-width:1300px)  {
     .button-forward{
       background-size: 90% 75%;
       width: 10%;
@@ -247,31 +246,28 @@
       width: 10%;
     }
     .test h1 {
-        font-size: 1.7em;
-        margin-top: 10%;
-        -webkit-animation: mine3Mobile 3s;
-        animation: mine3Mobile 3s;
+        margin-top: 20%;
+        -webkit-animation: mine2Mobile 3s;
+        animation: mine2Mobile 3s;
     }
     #h1-2 {
-      font-size: 2em;
       -webkit-animation: none;
       animation: none;
     }
     .test h2{
-      font-size: 1em;
       margin-top: 25%;
       -webkit-animation: mine3Mobile 3s;
       animation: mine3Mobile 3s;
     }
 
     svg{
-      width: 30px;
-      height: 30px;
+      width: 60px;
+      height: 60px;
     }
 
     #image-icon{
-      width: 40px;
-      height: 40px;
+      width: 80px;
+      height: 80px;
     }
 
     #social{
@@ -452,8 +448,6 @@ h2{
     border: none;
     border-collapse: collapse;
     width: 100%;
-    max-width: 100%;
-    white-space: nowrap;
     background-color:rgba( 0, 0, 0, 0.0 );
     border-right: 2px solid #f8f8f8;
     border-left: 2px solid #f8f8f8;
@@ -469,7 +463,7 @@ h2{
 }
 
 .fl-table td {
-    border-right: 25px solid #f8f8f8;
+    border-right: 2px solid #f8f8f8;
     border-bottom: 2px solid #f8f8f8;
     border-left: 2px solid #f8f8f8;
     border-top: 2px solid #f8f8f8;
@@ -484,7 +478,7 @@ h2{
 
 /* Responsive */
 
-@media (max-width: 1050px) {
+/*@media (max-width: 1300px) {
     .table-wrapper{
       padding-bottom: 10%;
     }
@@ -536,6 +530,6 @@ h2{
         display: block;
         text-align: center;
     }
-}
+}*/
   
   
